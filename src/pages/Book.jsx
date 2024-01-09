@@ -65,6 +65,7 @@ const Book = ({ bookId }) => {
 
   return (
     <>
+    <head><title>{bookData?.name}</title></head>
       <div className="bg-white w-[99%] font-roboto text-justify text-white mx-auto mt-[100px] p-5 rounded-md">
         <div className="flex md:flex-row flex-col">
           <div className="flex flex-col">

@@ -33,6 +33,7 @@ const Login = ({ setUserName }) => {
   };
   return (
     <>
+    <head><title>Login</title></head>
       <div className="flex items-center text-black h-[100vh] font-roboto">
         <div className="flex justify-center rounded-md sm:min-h-[50vh] min-h-[40vh] bg-white sm:w-[40%] w-[80%] m-auto">
           <form className="flex flex-col w-[70%] justify-center gap-5">

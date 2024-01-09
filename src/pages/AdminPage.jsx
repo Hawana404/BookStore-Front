@@ -62,7 +62,7 @@ const AdminPage = () => {
     }).then((res) => setImg(res));
   };
   return (
-    <>
+    <><head><title>Addin' Book</title></head>
       <div className="lg:w-[70%] md:w-[90%] sm:w-[90%] w-[100%] m-auto bg-white rounded-lg mt-[5%]">
         <h1 className="text-black p-3  text-xl">Add Book</h1>
         <hr />

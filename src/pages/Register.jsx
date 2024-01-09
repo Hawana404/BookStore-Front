@@ -32,6 +32,7 @@ const Register = ({ setUserName }) => {
   };
   return (
     <>
+    <head><title>Register</title></head>
       <div className="flex items-center h-[100vh]">
         <div className="flex justify-center rounded-md sm:min-h-[70vh] min-h-[60vh] bg-white sm:w-[40%] w-[80%] m-auto text-black">
           <form className="flex flex-col w-[70%] justify-center gap-5">

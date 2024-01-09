@@ -89,6 +89,7 @@ const Home = ({ setBookId, bookId }) => {
 
   return (
     <>
+    <head><title>Home Page</title></head>
       <div className="flex flex-col font-roboto">
         <div className={`w-[100%] p-2 flex lg:flex-row flex-col ml-auto mt-[5%]`}>
             <hr />

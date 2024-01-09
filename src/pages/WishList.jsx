@@ -56,7 +56,7 @@ const WishList = ({ setBookId, bookId }) => {
   };
 
   return (
-<>
+<><head><title>My Wishlist</title></head>
     <div className="flex flex-row font-roboto">
       <div className="w-[100%] ml-auto mt-[5%]">
         <h1 className="text-[rgb(82,82,91)] p-3 text-xl">Book List</h1>
